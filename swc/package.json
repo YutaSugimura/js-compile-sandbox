@@ -1,0 +1,13 @@
+{
+  "name": "swc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx swc ./src -d lib"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.205"
+  }
+}
